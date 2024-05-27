@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Environment variables
+.env
+
+# Others
+*.log

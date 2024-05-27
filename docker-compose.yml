@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    environment:
+      - TELEGRAM_TOKEN=<your-telegram-bot-token>
+      - COC_API_TOKEN=<your-clash-of-clans-api-token>
+    volumes:
+      - .:/code
+    restart: always
